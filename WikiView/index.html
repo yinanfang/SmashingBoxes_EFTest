@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wiki View</title>
+
+    <!-- Loading Bootstrap -->
+    <link href="./FlatUI/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="./FlatUI/css/flat-ui.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./image/icon.png">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- Customized CSS -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <!--
+        Cover
+      -->
+    <div class="coverBackground">
+      <div class="container cover">
+        <div class="navBar01">
+          <row>
+            <div class="col-sm-8 ">
+              <img alt="Logo" src="./image/logo01.png"></img>
+            </div>
+            <div class="col-sm-4"></div>
+          </row>
+        </div>
+        <div class="coverMain text-center">
+          <row>
+            <div class="col-sm-12 text-center">
+              <h1>
+                Wiki View
+              </h1>
+            </div>
+          </row>
+
+          <row><div class="col-sm-12 text-center"><br></div></row>
+          <row><div class="col-sm-12 text-center"><br></div></row>
+
+          <row>
+            <div class="col-sm-12 text-center">
+              Knowledge is ubiquitous, constantly changing, growing exponentially.
+            </div>
+          </row>
+
+          <row><div class="col-sm-12 text-center"><p></p></div></row>
+
+
+          <row>
+            <div class="col-sm-2 text-center">
+              So let's read
+            </div>
+            <div class="col-sm-2 text-center">
+              <input type="text" class="form-control input-sm" id="numberOfArticle" placeholder="1" value="1"/>
+            </div>
+            <div class="col-sm-2 text-center">
+              article(s) and 
+            </div>
+            <div class="col-sm-3 text-center">
+              <div class="dropdown" >
+                  <button class="btn btn-default dropdown-toggle" type="button" id="btn_userTalk" data-toggle="dropdown" aria-expanded="true" style="margin-top:-4px;">Exclude User Talks
+                  <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownUserTalk" id="dropdownUserTalk">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Exclude User Talks</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Include User Talks</a></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-sm-3 text-center">
+              <a class="btn btn-block btn-lg btn-primary" id="btn_Go" style="margin-top:-4px;padding:9px 19px">
+                Go!
+              </a>
+            </div>
+          </row>
+        </div>
+
+        <div class="coverBottom text-center">
+          <div class="container" style="width:40%;"> 
+            <row><div class="col-sm-12 text-center"><br></div></row>
+            <row><div class="col-sm-12 text-center"><br></div></row>
+            <row><div class="col-sm-12 text-center"><br></div></row>
+            <row><div class="col-sm-12 text-center"><br></div></row>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--
+        Result
+      -->
+    <div class="containerResult">
+      <div class="resultControl">
+        <div class="container">
+          <row>
+            <div class="col-sm-4 text-center">
+              Filter articles by keywords: 
+            </div>
+            <div class="col-sm-3 text-center">
+              <input type="text" class="form-control input-sm" id="keywordOfArticle" placeholder=""/>
+            </div>
+            <div class="col-sm-3 text-center">
+              article(s)
+            </div>
+            <div class="col-sm-2 text-center">
+              <a class="btn btn-block btn-lg btn-primary" id="btn_Filter" style="margin-top:-4px;padding:9px 19px">
+                Go!
+              </a>
+            </div>
+          </row>
+        </div>
+      </div>
+
+      <div class="container resultSection text-left">
+        <div class="allArticles">
+          <div class="singleArticle">
+            <div class="row">
+              <div class="col-sm-12 articleTitle">Clallam County Courthouse</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 articleBrief"><p>The <b>Clallam County Courthouse</b> was built in 1914 and is located in Port Angeles, Washington. The court house has a bell tower containing a bell which was shipped from Boston all the way around the horn. The building has had at least one addition since it was built. The building uses 126 solar panels, which were installed in 1979, to produce an estimated 20 percent of the electric power needed for the building.</p></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 link"><a href="http://en.wikipedia.org/wiki/Clallam_County_Courthouse" target="_blank">Read More</a></div>
+            </div>
+          </div>
+
+          <div class="singleArticle">
+            <div class="row">
+              <div class="col-sm-12 articleTitle">Electoral district of Londonderry</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 articleBrief"><p><b>Londonderry</b> is an electoral district of the Legislative Assembly in the Australian state of New South Wales. It is represented by independent MP Bart Bassett who left the Liberal Party of Australia due to ICAC allegations.</p></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 link"><a href="http://en.wikipedia.org/wiki/Electoral_district_of_Londonderry" target="_blank">Read More</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--
+        Footer
+      -->
+    <div class="containerFooter">
+      <div class="container">
+        <row><div class="col-sm-12 text-center"><br></div></row>
+        <div class="row">
+          <div class="col-sm-12 articleTitle">Designed by Yinan Fang</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="./FlatUI/js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./FlatUI/js/vendor/video.js"></script>
+    <script src="./FlatUI/js/flat-ui.min.js"></script>
+        
+    <!-- Customized JS -->
+    <script src="js/javascript.js"></script>
+  </body>
+</html>

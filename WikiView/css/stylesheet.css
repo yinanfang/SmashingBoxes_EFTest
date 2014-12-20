@@ -1,0 +1,71 @@
+html, body {
+  height:100%;
+}
+
+/************************************************************************************
+Cover
+************************************************************************************/
+
+/* Background */
+.coverBackground{
+  /*height:100%;*/
+  width: 100%;
+  background: url('../image/bg01.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cover {
+  height: 100%;  
+  
+}
+
+.navBar01 {
+  height: 30%;
+  /*margin-top: 3%*/
+}
+
+.coverMain {
+  height: 40%;
+}
+
+.coverBottom {
+  height: 30%;
+}
+
+/************************************************************************************
+Result Section
+************************************************************************************/
+.resultSection {
+  /*height: 400px;*/
+  background: white;
+}
+
+.singleArticle {
+  padding: 1%;
+  background: red;
+}
+
+.singleArticle:nth-child(odd) {
+  background: #2ecc71;
+}
+
+.singleArticle:nth-child(even) {
+  background: #EDEFE1;
+}
+
+
+.resultControl {
+  padding: 3% 0;
+}
+
+/************************************************************************************
+Result Section
+************************************************************************************/
+.containerFooter {
+  height: 18%;
+  background: #34495e;
+  color: white;
+}
