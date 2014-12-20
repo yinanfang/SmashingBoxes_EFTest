@@ -8,8 +8,9 @@ A basic Wikipedia article viewer web application that allows a user to viewrando
 ![screenshot 02](WikiView/image/screenshot02.png)
 
 
-Requirements
+Requirements:
 • Consume wikipedia's restful JSON API
+
 • View random article - 1st paragraph only
 • Refresh or select a new random article
 • Single-page application
