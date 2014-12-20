@@ -3,9 +3,9 @@ SmashingBoxes_EFTest
 
 A basic Wikipedia article viewer web application that allows a user to viewrandom article extracts.
 
-![screenshot 01](WikiView/image/screenshot01.jpg)
+![screenshot 01](WikiView/image/screenshot01.png)
 
-![screenshot 02](WikiView/image/screenshot02.jpg)
+![screenshot 02](WikiView/image/screenshot02.png)
 
 
 Requirements
