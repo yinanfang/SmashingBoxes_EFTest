@@ -7,10 +7,9 @@ A basic Wikipedia article viewer web application that allows a user to viewrando
 
 ![screenshot 02](WikiView/image/screenshot02.png)
 
-
+```
 Requirements:
 • Consume wikipedia's restful JSON API
-
 • View random article - 1st paragraph only
 • Refresh or select a new random article
 • Single-page application
@@ -32,3 +31,4 @@ Browser)
 • Filter articles based on word list (specifically for explicit content/words) • Limit by user specified category
 • Anything else that would make a cool/useful feature
 WIKI API url: http://en.wikipedia.org/w/api.php
+```
